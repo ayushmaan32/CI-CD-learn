@@ -1,10 +1,10 @@
 name: CI on push
 
-# on: [push]
-on:
-  push:
-    branches:
-      - main
+on: [push]
+# on:
+#   push:
+#     branches:
+#       - main
 
 jobs:
   hello-world:
@@ -14,4 +14,4 @@ jobs:
       run: |
         echo "REF": $GITHUB_REF"
         echo "Job Id: $GITHUB_JOB"
-        
+
