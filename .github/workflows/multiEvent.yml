@@ -1,4 +1,4 @@
-name: CI on push
+name: CI on multi events
 
 # on: [push]
 on:
